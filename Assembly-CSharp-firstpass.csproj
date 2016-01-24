@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}</ProjectGuid>
+    <ProjectGuid>{2FFD1308-D3E3-B8C5-DFA4-E6888F24FA14}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -45,24 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByContact.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByTime.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_EvasiveManeuver.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_GameController.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_Mover.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_PlayerController.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_RandomRotator.cs" />
-     <Compile Include="Assets\Done\Done_Scripts\Done_WeaponController.cs" />
-     <Compile Include="Assets\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\DestroyByBoundry.cs" />
-     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
-     <Compile Include="Assets\Scripts\GameController.cs" />
-     <Compile Include="Assets\Scripts\Mover.cs" />
-     <Compile Include="Assets\Scripts\PlayerContol.cs" />
-     <Compile Include="Assets\Scripts\RandomRotator.cs" />
-     <Compile Include="Assets\Scripts\WaitAndDestroy.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

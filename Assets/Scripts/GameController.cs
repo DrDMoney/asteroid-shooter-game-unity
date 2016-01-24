@@ -88,11 +88,6 @@ public class GameController : MonoBehaviour {
 				instanAsteroid.GetComponent<DestroyByContact> ().scoreValue = (int)(num * 10);
 				instanAsteroid.GetComponent<Rigidbody> ().mass = num;
 
-
-
-
-
-
 				yield return new WaitForSeconds (spawnWait);
 			}
 				
